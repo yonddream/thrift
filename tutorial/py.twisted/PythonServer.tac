@@ -22,10 +22,6 @@
 from twisted.application import internet, service
 from thrift.transport import TTwisted
 
-import glob
-import sys
-sys.path.append('gen-py.twisted')
-sys.path.insert(0, glob.glob('../../lib/py/build/lib*')[0])
 from tutorial import Calculator
 from PythonServer import CalculatorHandler
 from thrift.protocol import TBinaryProtocol

@@ -40,3 +40,13 @@ Tutorial
 
 6) That's about it for now. This tutorial is intentionally brief. It should be
    just enough to get you started and ready to build your own project.
+
+
+
+thritf 生成python代码 可以设置py生成阻塞模式代码，可以使用单进程或者多进程
+py:twisted 生成twisted代码异步框架
+py:tornado 生成tornado代码异步框架
+thrift --gen -r py:twisted tutorial.thrift 
+
+-r 生成依赖的文件包
+-out 输出的文件夹名

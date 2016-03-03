@@ -19,10 +19,9 @@
 # under the License.
 #
 
-import glob
 import sys
 sys.path.append('gen-py.twisted')
-sys.path.insert(0, glob.glob('../../lib/py/build/lib*')[0])
+
 
 from tutorial import Calculator
 from tutorial.ttypes import InvalidOperation, Operation
